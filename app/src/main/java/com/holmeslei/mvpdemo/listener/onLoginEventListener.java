@@ -1,4 +1,4 @@
-package com.holmeslei.mvpdemo.model;
+package com.holmeslei.mvpdemo.listener;
 
 /**
  * Description:

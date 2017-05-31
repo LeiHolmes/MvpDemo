@@ -3,6 +3,8 @@ package com.holmeslei.mvpdemo.model;
 
 import android.os.Handler;
 
+import com.holmeslei.mvpdemo.listener.onLoginEventListener;
+
 /**
  * Description:   LoginModel的实现类，模拟请求服务器延时2s回应
  * author         xulei

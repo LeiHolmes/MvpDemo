@@ -2,7 +2,7 @@ package com.holmeslei.mvpdemo.presenter;
 
 import com.holmeslei.mvpdemo.model.LoginModel;
 import com.holmeslei.mvpdemo.model.LoginModelImple;
-import com.holmeslei.mvpdemo.model.onLoginEventListener;
+import com.holmeslei.mvpdemo.listener.onLoginEventListener;
 import com.holmeslei.mvpdemo.view.LoginView;
 
 /**

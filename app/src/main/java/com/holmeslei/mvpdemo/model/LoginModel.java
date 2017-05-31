@@ -1,5 +1,7 @@
 package com.holmeslei.mvpdemo.model;
 
+import com.holmeslei.mvpdemo.listener.onLoginEventListener;
+
 /**
  * Description:   模拟登陆的操作的接口，实现类为LoginModelImpl，相当于Model层
  * author         xulei

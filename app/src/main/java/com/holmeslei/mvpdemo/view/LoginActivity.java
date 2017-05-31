@@ -20,9 +20,9 @@ import butterknife.OnClick;
  *                2. LoginView封装一些操作UI的方法，由LoginActivity实现。
  *                3. LoginPresenter负责View与Model的交互，由LoginPresenterImpl实现。
  *                   LoginPresenter接收到View的登录点击事件后，将业务逻辑交给LoginModel去处理。
- *                4. LoginModel负责具体的业务逻辑处理，由LoginModelImple实现
- *                   这里是判断输入的用户名与密码是否正确，将处理结果返回给LoginPresenter。
- *                5. LoginPresenter根据返回的不同数据通过LoginView调用View上不同的操作
+ *                4. LoginModel负责具体的业务逻辑处理，由LoginModelImple实现。
+ *                   这里是判断输入的用户名与密码是否正确，将处理结果通过onLoginEventListener返回给LoginPresenter。
+ *                5. LoginPresenter根据返回的不同数据通过LoginView，调用Activity上不同的操作
  * author         xulei
  * Date           2017/5/31 11:58
  */
