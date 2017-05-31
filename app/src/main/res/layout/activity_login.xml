@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.holmeslei.mvpdemo.LoginActivity">
+    tools:context="com.holmeslei.mvpdemo.view.LoginActivity">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -58,6 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:gravity="center"
+        android:onClick="onLoginClick"
         android:padding="10dp"
         android:text="登录" />
 </LinearLayout>
