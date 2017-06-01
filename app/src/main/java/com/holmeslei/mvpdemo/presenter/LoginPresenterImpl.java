@@ -11,12 +11,6 @@ import com.holmeslei.mvpdemo.view.LoginView;
  * author         xulei
  * Date           2017/5/31
  */
-/**
- * Description:   登录Presenter接口的实现类
- * 在这里进行Model层和View层的交互和操作
- * author         xulei
- * Date           2017/5/31
- */
 
 public class LoginPresenterImpl implements LoginPresenter, onLoginEventListener {
     private LoginView loginView;
