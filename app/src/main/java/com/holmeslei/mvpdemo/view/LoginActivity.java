@@ -23,6 +23,7 @@ import butterknife.OnClick;
  *                4. LoginModel负责具体的业务逻辑处理，由LoginModelImple实现。
  *                   这里是判断输入的用户名与密码是否正确，将处理结果通过onLoginEventListener返回给LoginPresenter。
  *                5. LoginPresenter根据返回的不同数据通过LoginView，调用Activity上不同的操作
+ *                6. 这里的Presenter层与Model层都采用接口模式是为了便于单元测试
  * author         xulei
  * Date           2017/5/31 11:58
  */
