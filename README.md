@@ -17,3 +17,5 @@ model层则包含了各种数据实体的获取，远程api的调用获取服务
 ### 遇到问题：  
 问题1：  
 解决方法：  
+
+[1]: http://oddbiem8l.bkt.clouddn.com/mvp.png
